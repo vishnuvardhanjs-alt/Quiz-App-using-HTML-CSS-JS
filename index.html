@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script>
+      function Check(ele) {
+        if (ele === "opt4") {
+          document.getElementById(ele).style.backgroundColor = "green";
+        } else {
+          document.getElementById(ele).style.backgroundColor = "red";
+        }
+      }
+    </script>
+    <div class="main-container">
+      <h1>In Web design, what does CSS stand for?</h1>
+      <div class="q-cont">
+        <div class="options" onclick="Check('opt1')">
+          <button class="optn-btn">A</button>
+          <input type="" id="opt1" value="Counter Strike Source" readonly />
+        </div>
+        <div class="options" onclick="Check('opt2')">
+          <button class="optn-btn">B</button>
+          <input type="" id="opt2" value="Corrective Style Sheet" readonly />
+        </div>
+        <div class="options" onclick="Check('opt3')">
+          <button class="optn-btn">C</button>
+          <input type="" id="opt3" value="Computer Style Sheet" readonly />
+        </div>
+        <div class="options" onclick="Check('opt4')">
+          <button class="optn-btn">D</button>
+          <input type="" id="opt4" value="Cascading Style Sheet" readonly />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
